@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: papayawhip;
+}
+
+main, header, footer {
+  padding: 20px;
+  border: 1px solid #000000;
+  color: #141414;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header,
+footer {
+  line-height: 60px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
