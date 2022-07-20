@@ -9,7 +9,16 @@ body {
   height: 100%;
 }
 
-body {
+.flex-container {
   min-height: 100vh;
-  background: lemonchiffon;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 200px;
+  height: 200px;
+  background: tomato;
 }
