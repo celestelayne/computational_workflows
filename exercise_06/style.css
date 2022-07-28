@@ -1,0 +1,24 @@
+button {
+  width: 40%;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.T-I-KE {
+  border-radius: 3px;
+  font-size: 1em;
+  border: 0;
+  background-color: #d14836;
+  color: #fff;
+}
+
+.T-I-JW {
+  background-image: linear-gradient(to bottom, #dd4b39, #400000);
+}
+
+button:hover {
+  background-image: linear-gradient(to bottom, #dd4b39, #dd4b39);
+}
