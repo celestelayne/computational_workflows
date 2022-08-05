@@ -1,0 +1,30 @@
+body {
+  background: lemonchiffon;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  background: red;
+}
+
+main {
+  flex: 1;
+  background: blue;
+}
+
+article {
+  width: 100%;
+  height: 40vh;
+  background: yellow;
+}
+
+.close_btn {
+  
+}
